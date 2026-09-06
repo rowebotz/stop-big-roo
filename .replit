@@ -1,0 +1,11 @@
+run = "npm start"
+entrypoint = "index.html"
+modules = ["nodejs-20"]
+
+[deployment]
+run = ["sh", "-c", "npm start"]
+deploymentTarget = "autoscale"
+
+[[ports]]
+localPort = 3000
+externalPort = 80
