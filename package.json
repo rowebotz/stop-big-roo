@@ -1,11 +1,12 @@
 {
   "name": "stop-big-roo",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
   "description": "Stop Big Roo — a satirical one-page public-awareness site about the kangaroo threat. Parody. Not a real charity.",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "node tests/site.test.js"
   },
   "engines": {
     "node": ">=18"
